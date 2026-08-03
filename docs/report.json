@@ -1,0 +1,17 @@
+{
+  "startedAt": "2026-08-03T11:12:31.044Z",
+  "nights": 396,
+  "written": 1,
+  "skipped": [],
+  "units": [
+    {
+      "wp": 5220,
+      "ok": true,
+      "blocked": 357,
+      "available": 39,
+      "reason": "ok",
+      "decision": "ok"
+    }
+  ],
+  "finishedAt": "2026-08-03T11:12:31.874Z"
+}

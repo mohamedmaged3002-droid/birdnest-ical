@@ -1,0 +1,78 @@
+name: sync
+
+on:
+  schedule:
+    # Every 6h, offset off the hour so we don't collide with the brassbell and
+    # soul bridges (both of which also hit Supabase).
+    - cron: '20 */6 * * *'
+  workflow_dispatch:
+    inputs:
+      only:
+        description: 'Optional space-separated wp_post_ids to scrape (default: all unwired)'
+        required: false
+      include_wired:
+        description: 'Also regenerate units that already have a first-party feed (audit mode)'
+        required: false
+        default: 'false'
+
+# Never let two runs write docs/ at once — a half-finished tree would publish
+# feeds that disagree with index.json.
+concurrency:
+  group: birdnest-ical-sync
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          # Node 22: sync.js uses global fetch and node:test. CI on Node 18
+          # broke the brassbell bridge the same way — see memory
+          # reference_brassbell_ical.
+          node-version: '22'
+
+      - run: npm ci --omit=dev || npm install --omit=dev
+
+      - name: Run tests
+        run: npm test
+
+      - name: Sync feeds
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          INCLUDE_WIRED: ${{ github.event.inputs.include_wired == 'true' && '1' || '' }}
+        run: node sync.js ${{ github.event.inputs.only }}
+
+      - name: Commit feeds
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/
+          if git diff --cached --quiet; then
+            echo "No feed changes."
+          else
+            git commit -m "sync: refresh BirdNest iCal feeds [skip ci]"
+            git push
+          fi
+
+      - name: Wire feeds into Supabase
+        # Only after the .ics files are actually pushed to Pages — wiring a URL
+        # that 404s reads as fully available downstream.
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: node wire.js
+
+      - name: Upload report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: sync-report
+          path: docs/report.json
+          if-no-files-found: ignore

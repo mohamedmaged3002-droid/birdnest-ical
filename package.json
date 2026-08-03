@@ -1,0 +1,15 @@
+{
+  "name": "birdnest-ical",
+  "version": "1.0.0",
+  "description": "Scrapes birdnestlife.com availability and publishes per-unit iCal feeds for BlueKeys calendar sync",
+  "main": "sync.js",
+  "scripts": {
+    "sync": "node sync.js",
+    "wire": "node wire.js",
+    "test": "node --test test/*.test.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.0",
+    "dotenv": "^16.4.5"
+  }
+}
