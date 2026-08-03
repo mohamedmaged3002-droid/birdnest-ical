@@ -192,10 +192,18 @@ async function main() {
     `\nDone. wrote=${report.written} skipped=${report.skipped.length} indexed=${properties.length}`,
   );
 
-  // Non-zero exit if literally nothing succeeded — that is an infrastructure
-  // failure (site down, payload shape changed) and CI should go red, not green.
-  if (report.written === 0 && units.length > 0) {
-    console.error('ERROR: zero feeds written this run.');
+  // Fail CI only on genuine infrastructure failure: every unit we looked at
+  // failed to scrape (site down, payload shape changed, all URLs wrong).
+  //
+  // "wrote nothing" is NOT by itself an error. Once the backlog is published the
+  // steady state is a run where every unit is either unchanged or legitimately
+  // held by a guard (e.g. empty-first-observation counting toward its
+  // threshold) — and failing on that would page us every 6h for healthy runs.
+  const scraped = report.units.filter((u) => u.ok).length;
+  if (units.length > 0 && scraped === 0) {
+    console.error(
+      `ERROR: all ${units.length} unit(s) failed to scrape — treating as an infrastructure failure.`,
+    );
     process.exit(1);
   }
 }

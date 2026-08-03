@@ -1,4 +1,5 @@
 const fs = require('fs');
+const { MARKER } = require('./wire');
 const path = require('path');
 
 // data/paths.json maps a BirdNest numeric id -> its full compound-scoped URL,
@@ -29,10 +30,17 @@ const isFullPath = (u) =>
 // Load the BirdNest units we want feeds for.
 //
 // Default scope is every published/draft BirdNest unit that does NOT already
-// have a first-party feed in listing_ical — we only want to bridge the gaps, not
-// to shadow RentalsUnited where the operator already publishes. Pass
-// { includeWired: true } to regenerate everything (useful for auditing our
-// output against their feed).
+// have a FIRST-PARTY feed in listing_ical — we bridge the gaps, we do not shadow
+// RentalsUnited where the operator already publishes.
+//
+// Crucially, units already carrying OUR OWN feed stay in scope: they are exactly
+// the ones that need re-scraping every run. Excluding any row in listing_ical
+// (the first cut of this function) meant a unit dropped out of the sync the
+// moment wire.js attached its feed, so every published .ics froze at its
+// first-run contents and silently went stale.
+//
+// Pass { includeWired: true } to also regenerate units that have an operator
+// feed — audit mode, for comparing our output against theirs.
 async function loadBirdnestUnits(supabase, { includeWired = false, onlyWp = [] } = {}) {
   const paths = loadPaths();
 
@@ -43,18 +51,22 @@ async function loadBirdnestUnits(supabase, { includeWired = false, onlyWp = [] }
     .in('status', ['published', 'draft']);
   if (error) throw new Error(`Supabase units query failed: ${error.message}`);
 
-  let wired = new Set();
+  let foreignFeeds = new Set();
   if (!includeWired) {
     const { data: ical, error: e2 } = await supabase
       .from('listing_ical')
-      .select('wordpress_post_id');
+      .select('wordpress_post_id, notes');
     if (e2) throw new Error(`Supabase listing_ical query failed: ${e2.message}`);
-    wired = new Set((ical || []).map((r) => r.wordpress_post_id));
+    foreignFeeds = new Set(
+      (ical || [])
+        .filter((r) => !String(r.notes || '').includes(MARKER))
+        .map((r) => r.wordpress_post_id),
+    );
   }
 
   const out = [];
   for (const u of units || []) {
-    if (!includeWired && wired.has(u.wp_post_id)) continue;
+    if (!includeWired && foreignFeeds.has(u.wp_post_id)) continue;
     if (onlyWp.length && !onlyWp.includes(u.wp_post_id)) continue;
     // Golf-car "units" are equipment rentals, not stays — no calendar to sync.
     if (/golf\s*car/i.test(u.title || '')) continue;
