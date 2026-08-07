@@ -1,17 +1,9 @@
 {
-  "startedAt": "2026-08-07T00:18:52.655Z",
+  "startedAt": "2026-08-07T03:21:32.600Z",
   "nights": 396,
   "written": 61,
   "skipped": [],
   "units": [
-    {
-      "wp": 6016,
-      "ok": true,
-      "blocked": 18,
-      "available": 378,
-      "reason": "ok",
-      "decision": "ok"
-    },
     {
       "wp": 5997,
       "ok": true,
@@ -29,10 +21,18 @@
       "decision": "ok"
     },
     {
-      "wp": 6019,
+      "wp": 6016,
       "ok": true,
-      "blocked": 352,
-      "available": 44,
+      "blocked": 18,
+      "available": 378,
+      "reason": "ok",
+      "decision": "ok"
+    },
+    {
+      "wp": 6021,
+      "ok": true,
+      "blocked": 340,
+      "available": 56,
       "reason": "ok",
       "decision": "ok"
     },
@@ -53,10 +53,10 @@
       "decision": "ok"
     },
     {
-      "wp": 5990,
+      "wp": 6019,
       "ok": true,
-      "blocked": 2,
-      "available": 394,
+      "blocked": 352,
+      "available": 44,
       "reason": "ok",
       "decision": "ok"
     },
@@ -69,18 +69,10 @@
       "decision": "ok"
     },
     {
-      "wp": 5993,
+      "wp": 5990,
       "ok": true,
-      "blocked": 3,
-      "available": 393,
-      "reason": "ok",
-      "decision": "ok"
-    },
-    {
-      "wp": 6021,
-      "ok": true,
-      "blocked": 340,
-      "available": 56,
+      "blocked": 2,
+      "available": 394,
       "reason": "ok",
       "decision": "ok"
     },
@@ -89,14 +81,6 @@
       "ok": true,
       "blocked": 334,
       "available": 62,
-      "reason": "ok",
-      "decision": "ok"
-    },
-    {
-      "wp": 5642,
-      "ok": true,
-      "blocked": 335,
-      "available": 61,
       "reason": "ok",
       "decision": "ok"
     },
@@ -117,6 +101,14 @@
       "decision": "ok"
     },
     {
+      "wp": 5993,
+      "ok": true,
+      "blocked": 3,
+      "available": 393,
+      "reason": "ok",
+      "decision": "ok"
+    },
+    {
       "wp": 6007,
       "ok": true,
       "blocked": 344,
@@ -125,10 +117,10 @@
       "decision": "ok"
     },
     {
-      "wp": 5829,
+      "wp": 5642,
       "ok": true,
-      "blocked": 13,
-      "available": 383,
+      "blocked": 335,
+      "available": 61,
       "reason": "ok",
       "decision": "ok"
     },
@@ -149,14 +141,6 @@
       "decision": "ok"
     },
     {
-      "wp": 5865,
-      "ok": true,
-      "blocked": 147,
-      "available": 249,
-      "reason": "ok",
-      "decision": "ok"
-    },
-    {
       "wp": 5702,
       "ok": true,
       "blocked": 85,
@@ -165,18 +149,26 @@
       "decision": "ok"
     },
     {
-      "wp": 5994,
+      "wp": 5829,
       "ok": true,
-      "blocked": 2,
-      "available": 394,
+      "blocked": 13,
+      "available": 383,
       "reason": "ok",
       "decision": "ok"
     },
     {
-      "wp": 5810,
+      "wp": 5476,
       "ok": true,
-      "blocked": 265,
-      "available": 131,
+      "blocked": 361,
+      "available": 35,
+      "reason": "ok",
+      "decision": "ok"
+    },
+    {
+      "wp": 5865,
+      "ok": true,
+      "blocked": 147,
+      "available": 249,
       "reason": "ok",
       "decision": "ok"
     },
@@ -189,10 +181,34 @@
       "decision": "ok"
     },
     {
-      "wp": 5476,
+      "wp": 5810,
       "ok": true,
-      "blocked": 361,
-      "available": 35,
+      "blocked": 265,
+      "available": 131,
+      "reason": "ok",
+      "decision": "ok"
+    },
+    {
+      "wp": 5986,
+      "ok": true,
+      "blocked": 0,
+      "available": 396,
+      "reason": "ok",
+      "decision": "ok"
+    },
+    {
+      "wp": 6002,
+      "ok": true,
+      "blocked": 341,
+      "available": 55,
+      "reason": "ok",
+      "decision": "ok"
+    },
+    {
+      "wp": 5994,
+      "ok": true,
+      "blocked": 2,
+      "available": 394,
       "reason": "ok",
       "decision": "ok"
     },
@@ -213,14 +229,6 @@
       "decision": "ok"
     },
     {
-      "wp": 5986,
-      "ok": true,
-      "blocked": 0,
-      "available": 396,
-      "reason": "ok",
-      "decision": "ok"
-    },
-    {
       "wp": 5033,
       "ok": true,
       "blocked": 258,
@@ -229,26 +237,10 @@
       "decision": "ok"
     },
     {
-      "wp": 6002,
-      "ok": true,
-      "blocked": 341,
-      "available": 55,
-      "reason": "ok",
-      "decision": "ok"
-    },
-    {
       "wp": 5109,
       "ok": true,
       "blocked": 338,
       "available": 58,
-      "reason": "ok",
-      "decision": "ok"
-    },
-    {
-      "wp": 5987,
-      "ok": true,
-      "blocked": 2,
-      "available": 394,
       "reason": "ok",
       "decision": "ok"
     },
@@ -269,6 +261,30 @@
       "decision": "ok"
     },
     {
+      "wp": 5988,
+      "ok": true,
+      "blocked": 340,
+      "available": 56,
+      "reason": "ok",
+      "decision": "ok"
+    },
+    {
+      "wp": 6015,
+      "ok": true,
+      "blocked": 345,
+      "available": 51,
+      "reason": "ok",
+      "decision": "ok"
+    },
+    {
+      "wp": 5987,
+      "ok": true,
+      "blocked": 2,
+      "available": 394,
+      "reason": "ok",
+      "decision": "ok"
+    },
+    {
       "wp": 5260,
       "ok": true,
       "blocked": 345,
@@ -281,14 +297,6 @@
       "ok": true,
       "blocked": 0,
       "available": 396,
-      "reason": "ok",
-      "decision": "ok"
-    },
-    {
-      "wp": 5988,
-      "ok": true,
-      "blocked": 340,
-      "available": 56,
       "reason": "ok",
       "decision": "ok"
     },
@@ -309,46 +317,6 @@
       "decision": "ok"
     },
     {
-      "wp": 6015,
-      "ok": true,
-      "blocked": 345,
-      "available": 51,
-      "reason": "ok",
-      "decision": "ok"
-    },
-    {
-      "wp": 5794,
-      "ok": true,
-      "blocked": 181,
-      "available": 215,
-      "reason": "ok",
-      "decision": "ok"
-    },
-    {
-      "wp": 5960,
-      "ok": true,
-      "blocked": 1,
-      "available": 395,
-      "reason": "ok",
-      "decision": "ok"
-    },
-    {
-      "wp": 5220,
-      "ok": true,
-      "blocked": 357,
-      "available": 39,
-      "reason": "ok",
-      "decision": "ok"
-    },
-    {
-      "wp": 5825,
-      "ok": true,
-      "blocked": 47,
-      "available": 349,
-      "reason": "ok",
-      "decision": "ok"
-    },
-    {
       "wp": 5832,
       "ok": true,
       "blocked": 23,
@@ -365,7 +333,31 @@
       "decision": "ok"
     },
     {
-      "wp": 5991,
+      "wp": 5825,
+      "ok": true,
+      "blocked": 47,
+      "available": 349,
+      "reason": "ok",
+      "decision": "ok"
+    },
+    {
+      "wp": 5794,
+      "ok": true,
+      "blocked": 181,
+      "available": 215,
+      "reason": "ok",
+      "decision": "ok"
+    },
+    {
+      "wp": 5220,
+      "ok": true,
+      "blocked": 357,
+      "available": 39,
+      "reason": "ok",
+      "decision": "ok"
+    },
+    {
+      "wp": 5960,
       "ok": true,
       "blocked": 2,
       "available": 394,
@@ -373,10 +365,10 @@
       "decision": "ok"
     },
     {
-      "wp": 5821,
+      "wp": 5991,
       "ok": true,
-      "blocked": 111,
-      "available": 285,
+      "blocked": 2,
+      "available": 394,
       "reason": "ok",
       "decision": "ok"
     },
@@ -389,10 +381,10 @@
       "decision": "ok"
     },
     {
-      "wp": 5809,
+      "wp": 5821,
       "ok": true,
-      "blocked": 25,
-      "available": 371,
+      "blocked": 111,
+      "available": 285,
       "reason": "ok",
       "decision": "ok"
     },
@@ -401,6 +393,30 @@
       "ok": true,
       "blocked": 2,
       "available": 394,
+      "reason": "ok",
+      "decision": "ok"
+    },
+    {
+      "wp": 5984,
+      "ok": true,
+      "blocked": 396,
+      "available": 0,
+      "reason": "ok",
+      "decision": "ok"
+    },
+    {
+      "wp": 5809,
+      "ok": true,
+      "blocked": 25,
+      "available": 371,
+      "reason": "ok",
+      "decision": "ok"
+    },
+    {
+      "wp": 6020,
+      "ok": true,
+      "blocked": 333,
+      "available": 63,
       "reason": "ok",
       "decision": "ok"
     },
@@ -421,22 +437,6 @@
       "decision": "ok"
     },
     {
-      "wp": 5984,
-      "ok": true,
-      "blocked": 396,
-      "available": 0,
-      "reason": "ok",
-      "decision": "ok"
-    },
-    {
-      "wp": 6020,
-      "ok": true,
-      "blocked": 333,
-      "available": 63,
-      "reason": "ok",
-      "decision": "ok"
-    },
-    {
       "wp": 5956,
       "ok": true,
       "blocked": 341,
@@ -445,10 +445,10 @@
       "decision": "ok"
     },
     {
-      "wp": 5812,
+      "wp": 5977,
       "ok": true,
-      "blocked": 396,
-      "available": 0,
+      "blocked": 9,
+      "available": 387,
       "reason": "ok",
       "decision": "ok"
     },
@@ -461,18 +461,18 @@
       "decision": "ok"
     },
     {
-      "wp": 5949,
+      "wp": 5812,
       "ok": true,
-      "blocked": 3,
-      "available": 393,
+      "blocked": 396,
+      "available": 0,
       "reason": "ok",
       "decision": "ok"
     },
     {
-      "wp": 5977,
+      "wp": 5949,
       "ok": true,
-      "blocked": 9,
-      "available": 387,
+      "blocked": 3,
+      "available": 393,
       "reason": "ok",
       "decision": "ok"
     },
@@ -493,5 +493,5 @@
       "decision": "ok"
     }
   ],
-  "finishedAt": "2026-08-07T00:19:10.894Z"
+  "finishedAt": "2026-08-07T03:21:50.006Z"
 }
