@@ -2,9 +2,19 @@ name: sync
 
 on:
   schedule:
-    # Every 6h, offset off the hour so we don't collide with the brassbell and
+    # Hourly, offset off the hour so we don't collide with the brassbell and
     # soul bridges (both of which also hit Supabase).
-    - cron: '20 */6 * * *'
+    #
+    # Was every 6h until 2026-08-10, when BirdNest sold 10 nights on wp 46443
+    # inside a single window and bluekeys.co advertised them as bookable for
+    # the remainder of it. In peak Sahel August the operator's inventory moves
+    # far faster than 6h, and the dangerous direction is OVER-availability:
+    # a phantom block only costs a booking, a stale-open night risks taking one
+    # the operator has already sold. See bluekeys-brain L-095.
+    #
+    # Affordable: 64 units x 1 GET at concurrency 6 -- a run is minutes, and the
+    # concurrency group below makes an overrun queue rather than overlap.
+    - cron: '20 * * * *'
   workflow_dispatch:
     inputs:
       only:
