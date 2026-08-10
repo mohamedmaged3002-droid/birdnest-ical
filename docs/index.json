@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-10T13:49:41.962Z",
-  "count": 61,
+  "updatedAt": "2026-08-10T18:53:36.587Z",
+  "count": 62,
   "properties": [
     {
       "wp": 5033,
@@ -731,6 +731,18 @@
       "blockedRanges": 2,
       "availableCount": 53,
       "lastWrittenAt": "2026-08-10T13:49:29.243Z",
+      "collapseStreak": 0,
+      "emptyStreak": 0
+    },
+    {
+      "wp": 46443,
+      "bnId": "5286",
+      "slug": "1BR-Canal-View-bn5286",
+      "title": "1BR Canal View | Marassi",
+      "url": "https://birdnestlife.com/property/Sahel/Marassi-Homes/Marina-1-Residence/5286",
+      "blockedRanges": 4,
+      "availableCount": 52,
+      "lastWrittenAt": "2026-08-10T18:53:36.586Z",
       "collapseStreak": 0,
       "emptyStreak": 0
     }
