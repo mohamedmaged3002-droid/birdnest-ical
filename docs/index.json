@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-10T19:25:46.947Z",
-  "count": 63,
+  "updatedAt": "2026-08-10T23:21:36.558Z",
+  "count": 64,
   "properties": [
     {
       "wp": 5033,
@@ -755,6 +755,18 @@
       "blockedRanges": 4,
       "availableCount": 52,
       "lastWrittenAt": "2026-08-10T19:25:09.237Z",
+      "collapseStreak": 0,
+      "emptyStreak": 0
+    },
+    {
+      "wp": 48803,
+      "bnId": "5338",
+      "slug": "lagoon-view-3br-foukabay-bn5338",
+      "title": "Lagoon View 3BR FoukaBay",
+      "url": "https://birdnestlife.com/property/Sahel/Fouka-Bay/Fouka-Bay/5338",
+      "blockedRanges": 3,
+      "availableCount": 7,
+      "lastWrittenAt": "2026-08-10T23:21:36.558Z",
       "collapseStreak": 0,
       "emptyStreak": 0
     }
