@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-11T02:28:39.398Z",
-  "count": 64,
+  "updatedAt": "2026-08-11T04:40:39.590Z",
+  "count": 65,
   "properties": [
     {
       "wp": 5033,
@@ -10,7 +10,7 @@
       "url": "https://birdnestlife.com/property/Sahel/Marassi-Homes/Marina-1-Residence/5033",
       "blockedRanges": 2,
       "availableCount": 138,
-      "lastWrittenAt": "2026-08-11T02:28:31.554Z",
+      "lastWrittenAt": "2026-08-11T04:40:29.236Z",
       "collapseStreak": 0,
       "emptyStreak": 0
     },
@@ -22,7 +22,7 @@
       "url": "https://birdnestlife.com/property/Sahel/Marassi-Homes/Marassi-Marina-2/5109",
       "blockedRanges": 2,
       "availableCount": 55,
-      "lastWrittenAt": "2026-08-11T02:28:33.199Z",
+      "lastWrittenAt": "2026-08-11T04:40:29.302Z",
       "collapseStreak": 0,
       "emptyStreak": 0
     },
@@ -34,7 +34,7 @@
       "url": "https://birdnestlife.com/property/Sahel/Marassi-Homes/Marina-1-Residence/5220",
       "blockedRanges": 2,
       "availableCount": 39,
-      "lastWrittenAt": "2026-08-11T02:28:35.221Z",
+      "lastWrittenAt": "2026-08-11T04:40:31.765Z",
       "collapseStreak": 0,
       "emptyStreak": 0
     },
@@ -44,10 +44,10 @@
       "slug": "fouka-3br-apartment-sea-poolview-bn5260",
       "title": "Fouka 3BR Apartment | Sea & PoolView",
       "url": "https://birdnestlife.com/property/Sahel/Fouka-Bay/Fouka-Bay/5260",
-      "blockedRanges": 4,
-      "availableCount": 42,
-      "lastWrittenAt": "2026-08-10T13:49:35.034Z",
-      "collapseStreak": 2,
+      "blockedRanges": 5,
+      "availableCount": 16,
+      "lastWrittenAt": "2026-08-11T04:40:29.277Z",
+      "collapseStreak": 0,
       "emptyStreak": 0
     },
     {
@@ -56,10 +56,10 @@
       "slug": "2br-seaview-penthouse-foukabay-bn5322",
       "title": "2BR SeaView Penthouse | Fouka Bay",
       "url": "https://birdnestlife.com/property/Sahel/Fouka-Bay/Fouka-Bay/5322",
-      "blockedRanges": 5,
-      "availableCount": 33,
-      "lastWrittenAt": "2026-08-10T13:49:41.142Z",
-      "collapseStreak": 2,
+      "blockedRanges": 4,
+      "availableCount": 15,
+      "lastWrittenAt": "2026-08-11T04:40:38.134Z",
+      "collapseStreak": 0,
       "emptyStreak": 0
     },
     {
@@ -70,7 +70,7 @@
       "url": "https://birdnestlife.com/property/Sahel/Marassi-Homes/Marassi-Marina-Views/5381",
       "blockedRanges": 1,
       "availableCount": 394,
-      "lastWrittenAt": "2026-08-11T02:28:23.153Z",
+      "lastWrittenAt": "2026-08-11T04:40:22.566Z",
       "collapseStreak": 0,
       "emptyStreak": 0
     },
@@ -82,7 +82,7 @@
       "url": "https://birdnestlife.com/property/Sahel/Playa-Northcoast/Playa-North-Coast/5476",
       "blockedRanges": 3,
       "availableCount": 35,
-      "lastWrittenAt": "2026-08-11T02:28:33.203Z",
+      "lastWrittenAt": "2026-08-11T04:40:29.837Z",
       "collapseStreak": 0,
       "emptyStreak": 0
     },
@@ -94,7 +94,7 @@
       "url": "https://birdnestlife.com/property/Sahel/Marassi-Hotels/Address-Beach-Marassi/5490",
       "blockedRanges": 4,
       "availableCount": 50,
-      "lastWrittenAt": "2026-08-11T02:28:25.286Z",
+      "lastWrittenAt": "2026-08-11T04:40:22.545Z",
       "collapseStreak": 0,
       "emptyStreak": 0
     },
@@ -106,7 +106,7 @@
       "url": "https://birdnestlife.com/property/Sahel/Marassi-Hotels/Vida-Marassi/5504",
       "blockedRanges": 3,
       "availableCount": 53,
-      "lastWrittenAt": "2026-08-11T02:28:25.265Z",
+      "lastWrittenAt": "2026-08-11T04:40:22.575Z",
       "collapseStreak": 0,
       "emptyStreak": 0
     },
@@ -118,7 +118,7 @@
       "url": "https://birdnestlife.com/property/Red-Sea/Gouna/Mangroovy-El-Gouna/5516",
       "blockedRanges": 2,
       "availableCount": 389,
-      "lastWrittenAt": "2026-08-11T02:28:38.559Z",
+      "lastWrittenAt": "2026-08-11T04:40:39.576Z",
       "collapseStreak": 0,
       "emptyStreak": 0
     },
@@ -130,7 +130,7 @@
       "url": "https://birdnestlife.com/property/Sahel/Marassi-Homes/Blanca-Residence/5642",
       "blockedRanges": 2,
       "availableCount": 59,
-      "lastWrittenAt": "2026-08-11T02:28:26.859Z",
+      "lastWrittenAt": "2026-08-11T04:40:25.130Z",
       "collapseStreak": 0,
       "emptyStreak": 0
     },
@@ -142,7 +142,7 @@
       "url": "https://birdnestlife.com/property/Sahel/Marassi-Homes/Verdi-Residence/5672",
       "blockedRanges": 2,
       "availableCount": 54,
-      "lastWrittenAt": "2026-08-11T02:28:23.143Z",
+      "lastWrittenAt": "2026-08-11T04:40:33.587Z",
       "collapseStreak": 0,
       "emptyStreak": 0
     },
@@ -154,7 +154,7 @@
       "url": "https://birdnestlife.com/property/Sahel/Marassi-Homes/Veneto-Residence/5688",
       "blockedRanges": 2,
       "availableCount": 49,
-      "lastWrittenAt": "2026-08-11T02:28:28.358Z",
+      "lastWrittenAt": "2026-08-11T04:40:25.276Z",
       "collapseStreak": 0,
       "emptyStreak": 0
     },
@@ -166,7 +166,7 @@
       "url": "https://birdnestlife.com/property/Sahel/Playa-Northcoast/Playa-North-Coast/5702",
       "blockedRanges": 1,
       "availableCount": 315,
-      "lastWrittenAt": "2026-08-11T02:28:30.018Z",
+      "lastWrittenAt": "2026-08-11T04:40:27.493Z",
       "collapseStreak": 0,
       "emptyStreak": 0
     },
@@ -178,7 +178,7 @@
       "url": "https://birdnestlife.com/property/Cairo/Mivida-Boulevard-New-Cairo/Mivida-Boulevard/5794",
       "blockedRanges": 1,
       "availableCount": 219,
-      "lastWrittenAt": "2026-08-11T02:28:35.173Z",
+      "lastWrittenAt": "2026-08-11T04:40:31.669Z",
       "collapseStreak": 0,
       "emptyStreak": 0
     },
@@ -190,7 +190,7 @@
       "url": "https://birdnestlife.com/property/Cairo/Mivida-Boulevard-New-Cairo/Mivida-Boulevard/5809",
       "blockedRanges": 1,
       "availableCount": 375,
-      "lastWrittenAt": "2026-08-11T02:28:36.762Z",
+      "lastWrittenAt": "2026-08-11T04:40:39.581Z",
       "collapseStreak": 0,
       "emptyStreak": 0
     },
@@ -202,7 +202,7 @@
       "url": "https://birdnestlife.com/property/Cairo/Mivida-Boulevard-New-Cairo/Mivida-Boulevard/5810",
       "blockedRanges": 1,
       "availableCount": 135,
-      "lastWrittenAt": "2026-08-11T02:28:31.454Z",
+      "lastWrittenAt": "2026-08-11T04:40:28.600Z",
       "collapseStreak": 0,
       "emptyStreak": 0
     },
@@ -214,7 +214,7 @@
       "url": "https://birdnestlife.com/property/Cairo/Mivida-Boulevard-New-Cairo/Mivida-Boulevard/5811",
       "blockedRanges": 1,
       "availableCount": 222,
-      "lastWrittenAt": "2026-08-11T02:28:35.183Z",
+      "lastWrittenAt": "2026-08-11T04:40:31.672Z",
       "collapseStreak": 0,
       "emptyStreak": 0
     },
@@ -226,7 +226,7 @@
       "url": "https://birdnestlife.com/property/Cairo/Mivida-Boulevard-New-Cairo/Mivida-Boulevard/5812",
       "blockedRanges": 1,
       "availableCount": 0,
-      "lastWrittenAt": "2026-08-11T02:28:38.649Z",
+      "lastWrittenAt": "2026-08-11T04:40:38.346Z",
       "collapseStreak": 0,
       "emptyStreak": 0
     },
@@ -238,7 +238,7 @@
       "url": "https://birdnestlife.com/property/Cairo/Mivida-Boulevard-New-Cairo/Mivida-Boulevard/5821",
       "blockedRanges": 1,
       "availableCount": 289,
-      "lastWrittenAt": "2026-08-11T02:28:36.770Z",
+      "lastWrittenAt": "2026-08-11T04:40:35.043Z",
       "collapseStreak": 0,
       "emptyStreak": 0
     },
@@ -250,7 +250,7 @@
       "url": "https://birdnestlife.com/property/Cairo/Mivida-Boulevard-New-Cairo/Mivida-Boulevard/5822",
       "blockedRanges": 1,
       "availableCount": 344,
-      "lastWrittenAt": "2026-08-11T02:28:39.382Z",
+      "lastWrittenAt": "2026-08-11T04:40:20.805Z",
       "collapseStreak": 0,
       "emptyStreak": 0
     },
@@ -262,7 +262,7 @@
       "url": "https://birdnestlife.com/property/Cairo/Mivida-Boulevard-New-Cairo/Mivida-Boulevard/5825",
       "blockedRanges": 1,
       "availableCount": 353,
-      "lastWrittenAt": "2026-08-11T02:28:35.162Z",
+      "lastWrittenAt": "2026-08-11T04:40:31.755Z",
       "collapseStreak": 0,
       "emptyStreak": 0
     },
@@ -274,7 +274,7 @@
       "url": "https://birdnestlife.com/property/Cairo/Mivida-Boulevard-New-Cairo/Mivida-Boulevard/5826",
       "blockedRanges": 1,
       "availableCount": 373,
-      "lastWrittenAt": "2026-08-11T02:28:26.850Z",
+      "lastWrittenAt": "2026-08-11T04:40:35.040Z",
       "collapseStreak": 0,
       "emptyStreak": 0
     },
@@ -286,7 +286,7 @@
       "url": "https://birdnestlife.com/property/Cairo/Mivida-Boulevard-New-Cairo/Mivida-Boulevard/5829",
       "blockedRanges": 2,
       "availableCount": 295,
-      "lastWrittenAt": "2026-08-11T02:28:28.345Z",
+      "lastWrittenAt": "2026-08-11T04:40:26.222Z",
       "collapseStreak": 0,
       "emptyStreak": 0
     },
@@ -298,7 +298,7 @@
       "url": "https://birdnestlife.com/property/Cairo/Mivida-Boulevard-New-Cairo/Mivida-Boulevard/5831",
       "blockedRanges": 1,
       "availableCount": 258,
-      "lastWrittenAt": "2026-08-11T02:28:36.732Z",
+      "lastWrittenAt": "2026-08-11T04:40:33.601Z",
       "collapseStreak": 0,
       "emptyStreak": 0
     },
@@ -310,7 +310,7 @@
       "url": "https://birdnestlife.com/property/Cairo/Mivida-Boulevard-New-Cairo/Mivida-Boulevard/5832",
       "blockedRanges": 1,
       "availableCount": 377,
-      "lastWrittenAt": "2026-08-11T02:28:35.291Z",
+      "lastWrittenAt": "2026-08-11T04:40:33.564Z",
       "collapseStreak": 0,
       "emptyStreak": 0
     },
@@ -322,7 +322,7 @@
       "url": "https://birdnestlife.com/property/Cairo/Mivida-Boulevard-New-Cairo/Mivida-Boulevard/5865",
       "blockedRanges": 1,
       "availableCount": 253,
-      "lastWrittenAt": "2026-08-11T02:28:29.993Z",
+      "lastWrittenAt": "2026-08-11T04:40:27.436Z",
       "collapseStreak": 0,
       "emptyStreak": 0
     },
@@ -334,7 +334,7 @@
       "url": "https://birdnestlife.com/property/Cairo/Sheikh-Zayed/ZED-Towers-%E2%80%93-Sheikh-Zayed/5884",
       "blockedRanges": 1,
       "availableCount": 0,
-      "lastWrittenAt": "2026-08-11T02:28:31.450Z",
+      "lastWrittenAt": "2026-08-11T04:40:38.823Z",
       "collapseStreak": 0,
       "emptyStreak": 0
     },
@@ -346,7 +346,7 @@
       "url": "https://birdnestlife.com/property/Cairo/Sheikh-Zayed/ZED-Towers-%E2%80%93-Sheikh-Zayed/5949",
       "blockedRanges": 1,
       "availableCount": 392,
-      "lastWrittenAt": "2026-08-11T02:28:39.373Z",
+      "lastWrittenAt": "2026-08-11T04:40:20.800Z",
       "collapseStreak": 0,
       "emptyStreak": 0
     },
@@ -358,7 +358,7 @@
       "url": "https://birdnestlife.com/property/Sahel/Blanche-Hotel/Blanche-Hotel/5956",
       "blockedRanges": 1,
       "availableCount": 51,
-      "lastWrittenAt": "2026-08-11T02:28:38.652Z",
+      "lastWrittenAt": "2026-08-11T04:40:38.119Z",
       "collapseStreak": 0,
       "emptyStreak": 0
     },
@@ -370,7 +370,7 @@
       "url": "https://birdnestlife.com/property/Sahel/Blanche-Hotel/Blanche-Hotel/5957",
       "blockedRanges": 1,
       "availableCount": 51,
-      "lastWrittenAt": "2026-08-11T02:28:36.751Z",
+      "lastWrittenAt": "2026-08-11T04:40:35.141Z",
       "collapseStreak": 0,
       "emptyStreak": 0
     },
@@ -382,7 +382,7 @@
       "url": "https://birdnestlife.com/property/Sahel/Blanche-Hotel/Blanche-Hotel/5958",
       "blockedRanges": 2,
       "availableCount": 49,
-      "lastWrittenAt": "2026-08-11T02:28:30.012Z",
+      "lastWrittenAt": "2026-08-11T04:40:37.771Z",
       "collapseStreak": 0,
       "emptyStreak": 0
     },
@@ -394,7 +394,7 @@
       "url": "https://birdnestlife.com/property/Sahel/Blanche-Hotel/Blanche-Hotel/5959",
       "blockedRanges": 3,
       "availableCount": 48,
-      "lastWrittenAt": "2026-08-11T02:28:33.161Z",
+      "lastWrittenAt": "2026-08-11T04:40:31.663Z",
       "collapseStreak": 0,
       "emptyStreak": 0
     },
@@ -406,7 +406,7 @@
       "url": "https://birdnestlife.com/property/Sahel/Blanche-Hotel/Blanche-Hotel/5960",
       "blockedRanges": 2,
       "availableCount": 391,
-      "lastWrittenAt": "2026-08-11T02:28:28.349Z",
+      "lastWrittenAt": "2026-08-11T04:40:27.452Z",
       "collapseStreak": 0,
       "emptyStreak": 0
     },
@@ -418,7 +418,7 @@
       "url": "https://birdnestlife.com/property/Cairo/Sheikh-Zayed/ZED-Towers-%E2%80%93-Sheikh-Zayed/5976",
       "blockedRanges": 0,
       "availableCount": 396,
-      "lastWrittenAt": "2026-08-11T02:28:30.006Z",
+      "lastWrittenAt": "2026-08-11T04:40:27.458Z",
       "collapseStreak": 0,
       "emptyStreak": 0
     },
@@ -430,7 +430,7 @@
       "url": "https://birdnestlife.com/property/Cairo/Sheikh-Zayed/ZED-Towers-%E2%80%93-Sheikh-Zayed/5977",
       "blockedRanges": 1,
       "availableCount": 390,
-      "lastWrittenAt": "2026-08-11T02:28:39.393Z",
+      "lastWrittenAt": "2026-08-11T04:40:22.553Z",
       "collapseStreak": 0,
       "emptyStreak": 0
     },
@@ -442,7 +442,7 @@
       "url": "https://birdnestlife.com/property/Sahel/Marassi-Homes/Marassi-Marina-Views/5983",
       "blockedRanges": 2,
       "availableCount": 59,
-      "lastWrittenAt": "2026-08-11T02:28:39.398Z",
+      "lastWrittenAt": "2026-08-11T04:40:39.572Z",
       "collapseStreak": 0,
       "emptyStreak": 0
     },
@@ -454,7 +454,7 @@
       "url": "https://birdnestlife.com/property/Sahel/Playa-Northcoast/Playa-North-Coast/5984",
       "blockedRanges": 1,
       "availableCount": 0,
-      "lastWrittenAt": "2026-08-11T02:28:38.659Z",
+      "lastWrittenAt": "2026-08-11T04:40:38.290Z",
       "collapseStreak": 0,
       "emptyStreak": 0
     },
@@ -466,7 +466,7 @@
       "url": "https://birdnestlife.com/property/Cairo/Sheikh-Zayed/ZED-Towers-%E2%80%93-Sheikh-Zayed/5986",
       "blockedRanges": 0,
       "availableCount": 396,
-      "lastWrittenAt": "2026-08-11T02:28:31.461Z",
+      "lastWrittenAt": "2026-08-11T04:40:29.166Z",
       "collapseStreak": 0,
       "emptyStreak": 0
     },
@@ -478,7 +478,7 @@
       "url": "https://birdnestlife.com/property/Cairo/Sheikh-Zayed/ZED-Towers-%E2%80%93-Sheikh-Zayed/5987",
       "blockedRanges": 0,
       "availableCount": 396,
-      "lastWrittenAt": "2026-08-11T02:28:26.560Z",
+      "lastWrittenAt": "2026-08-11T04:40:35.135Z",
       "collapseStreak": 0,
       "emptyStreak": 0
     },
@@ -490,7 +490,7 @@
       "url": "https://birdnestlife.com/property/Sahel/Marassi-Homes/LEA,-FAYA-&-SAKAIA-Residence/5988",
       "blockedRanges": 5,
       "availableCount": 50,
-      "lastWrittenAt": "2026-08-11T02:28:35.225Z",
+      "lastWrittenAt": "2026-08-11T04:40:31.761Z",
       "collapseStreak": 0,
       "emptyStreak": 0
     },
@@ -502,7 +502,7 @@
       "url": "https://birdnestlife.com/property/Sahel/City-Edge/City-Edge-/5989",
       "blockedRanges": 1,
       "availableCount": 395,
-      "lastWrittenAt": "2026-08-11T02:28:28.309Z",
+      "lastWrittenAt": "2026-08-11T04:40:35.588Z",
       "collapseStreak": 0,
       "emptyStreak": 0
     },
@@ -514,7 +514,7 @@
       "url": "https://birdnestlife.com/property/Sahel/City-Edge/City-Edge-/5990",
       "blockedRanges": 1,
       "availableCount": 395,
-      "lastWrittenAt": "2026-08-11T02:28:33.170Z",
+      "lastWrittenAt": "2026-08-11T04:40:29.819Z",
       "collapseStreak": 0,
       "emptyStreak": 0
     },
@@ -526,7 +526,7 @@
       "url": "https://birdnestlife.com/property/Sahel/City-Edge/City-Edge-/5991",
       "blockedRanges": 1,
       "availableCount": 395,
-      "lastWrittenAt": "2026-08-11T02:28:36.722Z",
+      "lastWrittenAt": "2026-08-11T04:40:34.455Z",
       "collapseStreak": 0,
       "emptyStreak": 0
     },
@@ -538,7 +538,7 @@
       "url": "https://birdnestlife.com/property/Sahel/City-Edge/City-Edge-/5992",
       "blockedRanges": 1,
       "availableCount": 395,
-      "lastWrittenAt": "2026-08-11T02:28:31.434Z",
+      "lastWrittenAt": "2026-08-11T04:40:27.724Z",
       "collapseStreak": 0,
       "emptyStreak": 0
     },
@@ -550,7 +550,7 @@
       "url": "https://birdnestlife.com/property/Sahel/City-Edge/City-Edge-/5993",
       "blockedRanges": 1,
       "availableCount": 395,
-      "lastWrittenAt": "2026-08-11T02:28:33.195Z",
+      "lastWrittenAt": "2026-08-11T04:40:39.560Z",
       "collapseStreak": 0,
       "emptyStreak": 0
     },
@@ -562,7 +562,7 @@
       "url": "https://birdnestlife.com/property/Sahel/City-Edge/City-Edge-/5994",
       "blockedRanges": 1,
       "availableCount": 395,
-      "lastWrittenAt": "2026-08-11T02:28:31.446Z",
+      "lastWrittenAt": "2026-08-11T04:40:28.626Z",
       "collapseStreak": 0,
       "emptyStreak": 0
     },
@@ -574,7 +574,7 @@
       "url": "https://birdnestlife.com/property/Sahel/City-Edge/City-Edge-/5995",
       "blockedRanges": 1,
       "availableCount": 395,
-      "lastWrittenAt": "2026-08-11T02:28:38.637Z",
+      "lastWrittenAt": "2026-08-11T04:40:39.589Z",
       "collapseStreak": 0,
       "emptyStreak": 0
     },
@@ -586,7 +586,7 @@
       "url": "https://birdnestlife.com/property/Sahel/Marassi-Homes/LEA,-FAYA-&-SAKAIA-Residence/5997",
       "blockedRanges": 4,
       "availableCount": 45,
-      "lastWrittenAt": "2026-08-11T02:28:23.134Z",
+      "lastWrittenAt": "2026-08-11T04:40:20.824Z",
       "collapseStreak": 0,
       "emptyStreak": 0
     },
@@ -598,7 +598,7 @@
       "url": "https://birdnestlife.com/property/Sahel/Marassi-Homes/Marina-1-Residence/6001",
       "blockedRanges": 2,
       "availableCount": 59,
-      "lastWrittenAt": "2026-08-11T02:28:30.003Z",
+      "lastWrittenAt": "2026-08-11T04:40:38.351Z",
       "collapseStreak": 0,
       "emptyStreak": 0
     },
@@ -610,7 +610,7 @@
       "url": "https://birdnestlife.com/property/Sahel/Marassi-Homes/Safi/6002",
       "blockedRanges": 2,
       "availableCount": 52,
-      "lastWrittenAt": "2026-08-11T02:28:26.868Z",
+      "lastWrittenAt": "2026-08-11T04:40:25.272Z",
       "collapseStreak": 0,
       "emptyStreak": 0
     },
@@ -622,7 +622,7 @@
       "url": "https://birdnestlife.com/property/Sahel/Marassi-Homes/Marina-1-Residence/6004",
       "blockedRanges": 2,
       "availableCount": 47,
-      "lastWrittenAt": "2026-08-11T02:28:28.365Z",
+      "lastWrittenAt": "2026-08-11T04:40:26.739Z",
       "collapseStreak": 0,
       "emptyStreak": 0
     },
@@ -632,10 +632,10 @@
       "slug": "cozy-3bdr-lagoon-fouka-bn6006",
       "title": "By BirdNest Cozy 3BDR Lagoon | Fouka",
       "url": "https://birdnestlife.com/property/Sahel/Fouka-Bay/Fouka-Bay/6006",
-      "blockedRanges": 2,
-      "availableCount": 35,
-      "lastWrittenAt": "2026-08-10T13:49:13.359Z",
-      "collapseStreak": 2,
+      "blockedRanges": 3,
+      "availableCount": 10,
+      "lastWrittenAt": "2026-08-11T04:40:22.563Z",
+      "collapseStreak": 0,
       "emptyStreak": 0
     },
     {
@@ -644,10 +644,10 @@
       "slug": "modern-3bdr-lagoon-view-bn6007",
       "title": "Modern 3BDR Lagoon View By BirdNest",
       "url": "https://birdnestlife.com/property/Sahel/Fouka-Bay/Fouka-Bay/6007",
-      "blockedRanges": 3,
-      "availableCount": 43,
-      "lastWrittenAt": "2026-08-10T13:49:15.952Z",
-      "collapseStreak": 2,
+      "blockedRanges": 4,
+      "availableCount": 18,
+      "lastWrittenAt": "2026-08-11T04:40:25.084Z",
+      "collapseStreak": 0,
       "emptyStreak": 0
     },
     {
@@ -658,7 +658,7 @@
       "url": "https://birdnestlife.com/property/Sahel/Marassi-Homes/Marina-1-Residence/6015",
       "blockedRanges": 3,
       "availableCount": 51,
-      "lastWrittenAt": "2026-08-11T02:28:36.737Z",
+      "lastWrittenAt": "2026-08-11T04:40:33.578Z",
       "collapseStreak": 0,
       "emptyStreak": 0
     },
@@ -668,10 +668,10 @@
       "slug": "3bdr-at-fouka-with-lagoon-view-bn6016",
       "title": "3BDR at Fouka with Lagoon View",
       "url": "https://birdnestlife.com/property/Sahel/Fouka-Bay/Fouka-Bay/6016",
-      "blockedRanges": 2,
-      "availableCount": 37,
-      "lastWrittenAt": "2026-08-10T13:49:05.038Z",
-      "collapseStreak": 2,
+      "blockedRanges": 3,
+      "availableCount": 12,
+      "lastWrittenAt": "2026-08-11T04:40:20.831Z",
+      "collapseStreak": 0,
       "emptyStreak": 0
     },
     {
@@ -682,7 +682,7 @@
       "url": "https://birdnestlife.com/property/Sahel/Marassi-Homes/LEA,-FAYA-&-SAKAIA-Residence/6017",
       "blockedRanges": 2,
       "availableCount": 59,
-      "lastWrittenAt": "2026-08-11T02:28:26.855Z",
+      "lastWrittenAt": "2026-08-11T04:40:25.126Z",
       "collapseStreak": 0,
       "emptyStreak": 0
     },
@@ -694,7 +694,7 @@
       "url": "https://birdnestlife.com/property/Sahel/Marassi-Homes/Marassi-Marina-2/6019",
       "blockedRanges": 3,
       "availableCount": 44,
-      "lastWrittenAt": "2026-08-11T02:28:23.171Z",
+      "lastWrittenAt": "2026-08-11T04:40:20.835Z",
       "collapseStreak": 0,
       "emptyStreak": 0
     },
@@ -706,7 +706,7 @@
       "url": "https://birdnestlife.com/property/Sahel/Marassi-Hotels/Address-Golf-Serviced-Marassi/6020",
       "blockedRanges": 2,
       "availableCount": 59,
-      "lastWrittenAt": "2026-08-11T02:28:26.864Z",
+      "lastWrittenAt": "2026-08-11T04:40:35.212Z",
       "collapseStreak": 0,
       "emptyStreak": 0
     },
@@ -718,7 +718,7 @@
       "url": "https://birdnestlife.com/property/Sahel/Marassi-Homes/Blanca-Residence/6021",
       "blockedRanges": 2,
       "availableCount": 56,
-      "lastWrittenAt": "2026-08-11T02:28:25.272Z",
+      "lastWrittenAt": "2026-08-11T04:40:22.569Z",
       "collapseStreak": 0,
       "emptyStreak": 0
     },
@@ -730,7 +730,19 @@
       "url": "https://birdnestlife.com/property/Sahel/Marassi-Homes/Greek-Village/6022",
       "blockedRanges": 2,
       "availableCount": 53,
-      "lastWrittenAt": "2026-08-11T02:28:30.009Z",
+      "lastWrittenAt": "2026-08-11T04:40:27.680Z",
+      "collapseStreak": 0,
+      "emptyStreak": 0
+    },
+    {
+      "wp": 6023,
+      "bnId": "6023",
+      "slug": "welcoming-3bdr-chalet-pool-view-marassi-bn6023",
+      "title": "Welcoming 3BDR Chalet – Pool View – Marassi",
+      "url": "https://birdnestlife.com/property/Sahel/Marassi-Homes/LEA,-FAYA-&-SAKAIA-Residence/6023",
+      "blockedRanges": 1,
+      "availableCount": 395,
+      "lastWrittenAt": "2026-08-11T04:40:33.560Z",
       "collapseStreak": 0,
       "emptyStreak": 0
     },
@@ -742,7 +754,7 @@
       "url": "https://birdnestlife.com/property/Cairo/Sheikh-Zayed/ZED-Towers-%E2%80%93-Sheikh-Zayed/6025",
       "blockedRanges": 0,
       "availableCount": 396,
-      "lastWrittenAt": "2026-08-11T02:28:23.113Z",
+      "lastWrittenAt": "2026-08-11T04:40:20.838Z",
       "collapseStreak": 0,
       "emptyStreak": 0
     },
@@ -754,7 +766,7 @@
       "url": "https://birdnestlife.com/property/Sahel/Marassi-Homes/Marina-1-Residence/5286",
       "blockedRanges": 4,
       "availableCount": 42,
-      "lastWrittenAt": "2026-08-11T02:28:25.260Z",
+      "lastWrittenAt": "2026-08-11T04:40:25.072Z",
       "collapseStreak": 0,
       "emptyStreak": 0
     },
@@ -766,7 +778,7 @@
       "url": "https://birdnestlife.com/property/Sahel/Fouka-Bay/Fouka-Bay/5338",
       "blockedRanges": 3,
       "availableCount": 7,
-      "lastWrittenAt": "2026-08-11T02:28:25.280Z",
+      "lastWrittenAt": "2026-08-11T04:40:33.583Z",
       "collapseStreak": 0,
       "emptyStreak": 0
     }
