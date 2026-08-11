@@ -5,7 +5,15 @@
 // budget here is one request per unit per run — we can afford real concurrency,
 // but keep it modest: this is someone else's origin.
 module.exports = {
-  HORIZON_MONTHS: Number(process.env.HORIZON_MONTHS) || 13, // current month + 12 ahead
+  // Raised 13 -> 15 on 2026-08-10. We emit only BLOCKED events, so everything
+  // past the horizon reads as AVAILABLE downstream: a horizon shorter than the
+  // operator's declared blocks silently reopens nights they have closed. wp
+  // 46443 was the proof — BirdNest blocked to 2027-09-29 while a 13-month
+  // horizon stopped at 2027-09-10, leaving 19 nights open that BirdNest sells
+  // as closed. Costs nothing: BirdNest returns checkInBlockedDates as absolute
+  // RANGES in one response, so a longer horizon is more enumeration of the same
+  // single request, not more traffic.
+  HORIZON_MONTHS: Number(process.env.HORIZON_MONTHS) || 15,
   UNIT_CONCURRENCY: Number(process.env.UNIT_CONCURRENCY) || 6,
 
   FETCH_TIMEOUT_MS: Number(process.env.FETCH_TIMEOUT_MS) || 30000,

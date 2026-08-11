@@ -16,7 +16,11 @@
 // safe when the alternative would publish a *wider-open* calendar than reality.
 
 // How many consecutive runs must agree before we believe a surprising result.
-// At the 6h cadence that is ~18h of confirmation.
+// At the hourly cadence (was 6h until 2026-08-10) that is ~3h of confirmation,
+// down from ~18h. Deliberate: the delay is a cost, not a benefit — while we
+// withhold a collapsed calendar we serve the WIDER-open previous one, which is
+// the double-booking direction. Three identical scrapes still rule out a
+// transient glitch, which is all the streak was ever for.
 const COLLAPSE_CONFIRM_RUNS = 3;
 const EMPTY_CONFIRM_RUNS = 3;
 
