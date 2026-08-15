@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-15T11:34:27.327Z",
-  "count": 68,
+  "updatedAt": "2026-08-15T12:39:26.545Z",
+  "count": 76,
   "properties": [
     {
       "wp": 5033,
@@ -171,6 +171,42 @@
       "emptyStreak": 0
     },
     {
+      "wp": 5764,
+      "bnId": "5764",
+      "slug": "luxury-2br-aura-aura-bn5764",
+      "title": "Aura CFC with Garden 2BR",
+      "url": "https://birdnestlife.com/property/Cairo/Aura-Cairo-Festival-City/BIRD-NEST-at-Cairo-Festival-City/5764",
+      "blockedRanges": 1,
+      "availableCount": 455,
+      "lastWrittenAt": "2026-08-15T12:39:26.023Z",
+      "collapseStreak": 0,
+      "emptyStreak": 0
+    },
+    {
+      "wp": 5772,
+      "bnId": "5772",
+      "slug": "luxury-2br-aura-aura-bn5772",
+      "title": "Aura 2BR CFC | Garden View",
+      "url": "https://birdnestlife.com/property/Cairo/Aura-Cairo-Festival-City/BIRD-NEST-at-Cairo-Festival-City/5772",
+      "blockedRanges": 1,
+      "availableCount": 318,
+      "lastWrittenAt": "2026-08-15T12:39:26.361Z",
+      "collapseStreak": 0,
+      "emptyStreak": 0
+    },
+    {
+      "wp": 5777,
+      "bnId": "5777",
+      "slug": "luxury-2br-aura-aura-bn5777",
+      "title": "Aprt. 2BR At Aura CFC | Garden View",
+      "url": "https://birdnestlife.com/property/Cairo/Aura-Cairo-Festival-City/BIRD-NEST-at-Cairo-Festival-City/5777",
+      "blockedRanges": 3,
+      "availableCount": 446,
+      "lastWrittenAt": "2026-08-15T12:39:25.834Z",
+      "collapseStreak": 0,
+      "emptyStreak": 0
+    },
+    {
       "wp": 5794,
       "bnId": "5794",
       "slug": "3br-mivida-pool-view-bn5794",
@@ -179,6 +215,66 @@
       "blockedRanges": 1,
       "availableCount": 284,
       "lastWrittenAt": "2026-08-15T11:34:13.111Z",
+      "collapseStreak": 0,
+      "emptyStreak": 0
+    },
+    {
+      "wp": 5799,
+      "bnId": "5799",
+      "slug": "modern-2bdr-mivida-pool-view-bn5799",
+      "title": "Modern 2BDR Mivida | Pool View",
+      "url": "https://birdnestlife.com/property/Cairo/Mivida-Boulevard-New-Cairo/Mivida-Boulevard/5799",
+      "blockedRanges": 1,
+      "availableCount": 446,
+      "lastWrittenAt": "2026-08-15T12:39:25.832Z",
+      "collapseStreak": 0,
+      "emptyStreak": 0
+    },
+    {
+      "wp": 5801,
+      "bnId": "5801",
+      "slug": "chic-2br-mivida-pool-view-bn5801",
+      "title": "Chic 2BR @Mivida Pool View | BirdNest",
+      "url": "https://birdnestlife.com/property/Cairo/Mivida-Boulevard-New-Cairo/Mivida-Boulevard/5801",
+      "blockedRanges": 1,
+      "availableCount": 441,
+      "lastWrittenAt": "2026-08-15T12:39:26.545Z",
+      "collapseStreak": 0,
+      "emptyStreak": 0
+    },
+    {
+      "wp": 5803,
+      "bnId": "5803",
+      "slug": "2br-mivida-w-pool-view-bn5803",
+      "title": "2BR @Mivida w/Pool View By BirdNest",
+      "url": "https://birdnestlife.com/property/Cairo/Mivida-Boulevard-New-Cairo/Mivida-Boulevard/5803",
+      "blockedRanges": 1,
+      "availableCount": 333,
+      "lastWrittenAt": "2026-08-15T12:39:24.112Z",
+      "collapseStreak": 0,
+      "emptyStreak": 0
+    },
+    {
+      "wp": 5804,
+      "bnId": "5804",
+      "slug": "elegant-3bdr-mivida-bn5804",
+      "title": "Elegant 3BDR Mivida | BirdNest",
+      "url": "https://birdnestlife.com/property/Cairo/Mivida-Boulevard-New-Cairo/Mivida-Boulevard/5804",
+      "blockedRanges": 1,
+      "availableCount": 445,
+      "lastWrittenAt": "2026-08-15T12:39:24.262Z",
+      "collapseStreak": 0,
+      "emptyStreak": 0
+    },
+    {
+      "wp": 5806,
+      "bnId": "5806",
+      "slug": "3br-poolview-emaar-mivida-bn5806",
+      "title": "3BR PoolView @Emaar Mivida | BirdNest",
+      "url": "https://birdnestlife.com/property/Cairo/Mivida-Boulevard-New-Cairo/Mivida-Boulevard/5806",
+      "blockedRanges": 1,
+      "availableCount": 258,
+      "lastWrittenAt": "2026-08-15T12:39:24.265Z",
       "collapseStreak": 0,
       "emptyStreak": 0
     },
